@@ -1,0 +1,54 @@
+.menu__vertical {
+	left: 0;
+	width: 250px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+.menu__vertical ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu__vertical summary,
+.menu__vertical ul li a {
+    background: var(--color1);
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu__vertical ul li a {
+    display: block;
+}
+.menu__vertical ul li a:hover {
+    background: var(--gray);
+}
+.menu__vertical ul li a .fa {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+}
+.menu__vertical ul li a .badge {
+    display: inline-block;
+    background: #fff;
+    background: rgba(255,255,255,0.2);
+    padding: 3px 7px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+}
+.menu__vertical ul li ul li a {
+    background: #444;
+    border-left: 4px solid transparent;
+    padding: 10px 20px;
+}
+.menu__vertical ul li ul li a:hover {
+    background: #333;
+    border-left: 4px solid var(--color1);
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
