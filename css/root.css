@@ -108,7 +108,7 @@
 * COLOR *
 =================*/
   --color1: var(--red);
-  --color2: var(--pale-yellow);
+  --color2: var(--gray);
   --color-nav: var(--black);
   /* *BACKGROUND* */
   --bg-navbar: #ffffff;
