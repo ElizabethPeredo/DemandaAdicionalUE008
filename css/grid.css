@@ -18,7 +18,7 @@
 }
 
 .container__slider{
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 5fr;
 }
 
 

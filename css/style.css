@@ -127,17 +127,13 @@ body::-webkit-scrollbar-thumb {
 }
 .container__large {
   width: 100%;
-  overflow: hidden;
-
 }
 
 .container__medium {
   max-width: 90%;
   width: var(--width);
-  overflow: hidden;
   margin: 0em auto;
   padding: 1rem;
-
 }
 
 .container__small {
@@ -156,6 +152,10 @@ body::-webkit-scrollbar-thumb {
 }
 .no-margin {
   margin: 0;
+}
+
+.relative {
+  position: relative;
 }
 
 /* ====================
