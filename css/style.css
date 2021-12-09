@@ -8,6 +8,7 @@
 @import "banner.css";
 @import "responsive.css";
 @import "navbar.css";
+@import "landing-page.css";
 *,
 *::after,
 *::before {
