@@ -502,14 +502,15 @@ table tr:hover {
 button,
 .btn {
   cursor: pointer;
-  border: none;
-  background: var(--color2);
-  color: var(--color1);
-  border: 0.1em solid var(--gray);
-  border-radius: 1em;
-  font-weight: 600;
-  margin-top: 1em;
-  padding: 0.3em;
+  background: var(--color1);
+  padding: 7px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+  color: #fff;
+  border-radius: 7px;
+  margin: auto;
+  box-shadow: -10px 20px 15px -10px var(--gray);
 }
 
 button.circle {

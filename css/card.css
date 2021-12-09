@@ -29,13 +29,15 @@
   padding: 2em;
   margin-bottom: 1em;
 }
-
+.card img,
 .card.img {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-lines);
   padding: 0em;
-  width: 90%;
+  width: 75%;
   height: auto;
   margin: 1em auto;
+  display: flex;
+  justify-content: center;
 }
 .card.item {
   margin: 1em;
