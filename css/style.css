@@ -6,9 +6,9 @@
 @import "diagram.css";
 @import "card.css";
 @import "banner.css";
-@import "responsive.css";
 @import "navbar.css";
 @import "landing-page.css";
+@import "responsive.css";
 *,
 *::after,
 *::before {
@@ -463,7 +463,7 @@ table {
   color: var(--black);
   display: block;
   overflow-x: auto;
-  line-height: 1.5rem;
+  line-height: 1rem;
   margin: 0.5em 0em;
 }
 table ul {
