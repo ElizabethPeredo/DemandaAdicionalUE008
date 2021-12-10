@@ -118,10 +118,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container__slider{
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
-      }
+    
 
 
     .grid-fr.m1 {
@@ -199,6 +196,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    .container__slider{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+      }
+      
     .grid-fr.s1 {
         grid-template-columns: repeat(1, 1fr);
     }

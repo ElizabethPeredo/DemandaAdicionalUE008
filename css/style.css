@@ -128,6 +128,8 @@ body::-webkit-scrollbar-thumb {
 }
 .container__large {
   width: 100%;
+  margin: 0em auto;
+  padding: 1rem;
 }
 
 .container__medium {
