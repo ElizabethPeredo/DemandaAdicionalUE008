@@ -1,9 +1,6 @@
 .menu__vertical {
 	left: 0;
 	width: 250px;
-    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.1);
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
 .menu__vertical ul {
     list-style: none;
@@ -13,9 +10,12 @@
 .menu__vertical summary,
 .menu__vertical ul li a {
     background: var(--color1);
-    padding: 10px 15px;
+    padding: 0.1rem 0.5rem;
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
 }
 .menu__vertical ul li a {
     display: block;
@@ -23,19 +23,19 @@
 .menu__vertical ul li a:hover {
     background: var(--gray);
 }
-.menu__vertical ul li a .fa {
-    width: 16px;
-    text-align: center;
-    margin-right: 5px;
+.menu__vertical ul li a.active {
+    color: var(--color1);
+    background: #303030;
 }
-.menu__vertical ul li a .badge {
-    display: inline-block;
+
+.menu__vertical ul li a{
+    display: block;
     background: #fff;
-    background: rgba(255,255,255,0.2);
-    padding: 3px 7px;
+    background: #ffffff33;
+    border-bottom: solid 1px #cccccc33;
+    padding: 0.1rem 0.5rem;
     color: #fff;
-    font-size: 12px;
-    font-weight: 800;
+    line-height: 1rem;
 }
 .menu__vertical ul li ul li a {
     background: #444;
