@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objeto DA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--Header-->
+    <header class="navbar" id="Header"></header>
+    <!--End Header-->
+    <section class="container__large">
+        <h1>
+            OBJETO DE LA DEMANDA ADICIONAL 2022 - UE008
+        </h1>
+        <div class="container">
+            <form action="javascript:void(0);" id="buscarForm" class="horizontal">
+                <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor" />
+                <button class="red"><i class="fa fa-search icon"></i></button>
+            </form>
+            <table>
+                <thead>
+                    <th>N</th>
+                    <th>BIC</th>
+                    <th>NOMBRE_CORTO</th>
+                    <th>OBJETO_DA</th>
+                    <th>COMPONENTE</th>
+                    <th>DETALLE </th>
+                    <th>ACCIONES</th>
+                    <th>MONTO POR COMPONENTE</th>
+                    <th>MONTO DA</th>
+                </thead>
+                <tbody id="bodyAnexo">
+                    <style>
+                        
+                          tbody td:nth-last-child(-n + 2) {
+                            text-align: right;
+                          }
+                          tbody td:nth-last-child(-n + 2):before {
+                            content: "S/";
+                          }
+                          tbody td:nth-child(1) {
+                            background: var(--red);
+                            color: var(--white);
+                            max-width: 2rem;
+                            text-align: center;
+
+                          }
+                          tbody td:nth-child(6),
+                          tbody td:nth-child(7) {
+                            width: 50%;
+                            min-width: 25rem;
+                          }
+                          tbody td:nth-child(8) {
+                            font-weight: 900;
+                          }
+                          tbody td:nth-child(9) {
+                            background: var(--pale-red);
+                          }
+                        </style>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/page.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/objetoDA.js"></script>
+</body>
+
+</html>

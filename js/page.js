@@ -13,6 +13,7 @@ document.getElementById("Header").innerHTML =
     '<a href="./anexo3.html">Anexo 3</a>' +
     '<a href="./anexo4.html">Anexo 4</a>' +
     '<a href="./anexo5.html">Anexo 5</a>' +
+    '<a href="./objetoDA.html">Objeto DA</a>' +
     '</ul>' +
     '</div>' +
     '<div class="navbar__icon">' +
