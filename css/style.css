@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb {
 /* ====================
     * CONTAINERS *
 ==================== */
-.container{
+.container {
   padding: 2rem;
   margin-right: 5rem;
 }
@@ -145,10 +145,7 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   margin: 0em auto;
   padding: 1rem 5rem;
-
 }
-
-
 
 .no-padding {
   padding: 0;
@@ -161,6 +158,13 @@ body::-webkit-scrollbar-thumb {
   position: relative;
 }
 
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
 /* ====================
     * TEXT *
 ==================== */
@@ -218,7 +222,7 @@ link:hover,
 a:hover,
 a:active {
   /**border-bottom: 0.1em solid var(--color1);**/
-  color:var(--color1);
+  color: var(--color1);
 }
 
 ul,
@@ -573,6 +577,7 @@ input {
 input:hover {
   border: 0.1rem solid var(--color2);
 }
+
 select,
 datalist {
   background-color: var(--color2);
@@ -1024,4 +1029,9 @@ pale-teal,
 .border-light-gray,
 .border-hover-light-gray:hover {
   border: solid 0.3em var(--light-gray);
+}
+
+
+@media (max-width: 750px) {
+  
 }

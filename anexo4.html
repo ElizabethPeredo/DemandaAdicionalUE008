@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anexo N° 4</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Header-->
-    <header class="navbar">
-        <div class="navbar__container">
-            <div class="navbar__logo">
-                <a href="https://elizabethperedo.github.io/DemandaAdicionalUE008/">
-                    <i class=""></i>Unidad Ejecutora 008
-                </a>
-            </div>
-            <div class="navbar__items">
-                <ul>
-                    <a href="https://elizabethperedo.github.io/DemandaAdicionalUE008/">Home</a>
-                    <a href="./anexo1.html">Anexo 1</a>
-                    <a href="./anexo2.html">Anexo 2</a>
-                    <a href="./anexo3.html">Anexo 3</a>
-                    <a href="./anexo4.html">Anexo 4</a>
-                    <a href="./anexo5.html">Anexo 5</a>
-
-                </ul>
-
-            </div>
-            <div class="navbar__icon">
-                <i class="fas fa-bars" id="menu-bars"></i>
-                <i class="fas fa-search" id="menu-search"></i>
-            </div>
-
-        </div>
-    </header>
+    <header class="navbar" id="Header"></header>
+    <!--End Header-->
     <section class="container__large">
-        <h1>Anexo N° 4</h1>
-        
+      <h1>
+        Anexo N° 4: PROGRAMACIÓN FINANCIERA MENSUAL A NIVEL DE DEVENGADO DE LA <red>DEMANDA ADICIONAL</red> 2022
+      </h1>
+      <div class="container">
+        <form action="javascript:void(0);" id="buscarForm" class="horizontal">
+          <input
+            onkeyup="myFunction()"
+            class="inputSearch"
+            style="width: 100%"
+            type="text"
+            id="valor"
+          />
+          <button class="red"><i class="fa fa-search icon"></i></button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>CUI</th>
+              <th>INVERSIÓN</th>
+              <th>Detalle</th>
+              <th>Clasificador</th>
+              <th>Costo Anual</th>
+              <th>Costo por componente</th>
+              <th>Enero</th>
+              <th>Febrero</th>
+              <th>Marzo</th>
+              <th>Abril</th>
+              <th>Mayo</th>
+              <th>Junio</th>
+              <th>Julio</th>
+              <th>Agosto</th>
+              <th>Septiembre</th>
+              <th>Octubre</th>
+              <th>Noviembre</th>
+              <th>Diciembre</th>
+            </tr>
+          </thead>
+          <tbody id="bodyAnexo">
+            <style>
+            tbody td:nth-child(6) {
+                font-weight: 900;
+
+              }
+              tbody td:nth-last-child(-n + 14) {
+                text-align: right;
+              }
+              tbody td:nth-last-child(-n + 14):before {
+                content: "S/";
+              }
+              tbody tr:nth-last-child(-n + 1),
+              tbody tr:nth-child(42),
+              tbody tr:nth-child(49) {
+                background: var(--red);
+                color: var(--white);
+              }
+            </style>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <script src="js/script.js"></script>
-</body>
-
+    <script src="js/anexo4.js"></script>
+  </body>
 </html>
