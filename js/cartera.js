@@ -240,7 +240,6 @@ class BuscarAnexo {
 
 let busqueda = new BuscarAnexo();
 
-
 function myFunction() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("valor");
