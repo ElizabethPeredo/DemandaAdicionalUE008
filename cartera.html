@@ -34,7 +34,19 @@ CARTERA UE008-PE
                 </thead>
                 <tbody id="bodyAnexo">
 
-                    </style>
+                    <style> 
+ tbody td:nth-child(n + 6) { 
+text-align: right;
+ } 
+tbody td:nth-last-child(n + 6):before { 
+content: "S/"; 
+}
+ tbody tr:nth-last-child(n + 1)
+{ 
+background: var(--red); 
+color: var(--white); 
+}
+ </style>
                 </tbody>
             </table>
         </div>
