@@ -222,10 +222,10 @@ class BuscarAnexo {
             fila.insertCell(2).innerHTML = inversion.C;
             fila.insertCell(3).innerHTML = inversion.D;
             fila.insertCell(4).innerHTML = inversion.E;
-            fila.insertCell(5).innerHTML = inversion.F;
-            fila.insertCell(6).innerHTML = inversion.G;
-            fila.insertCell(7).innerHTML = inversion.H;
-            fila.insertCell(8).innerHTML = inversion.I;
+            fila.insertCell(5).innerHTML = inversion.F.toLocaleString('ENG');
+            fila.insertCell(6).innerHTML = inversion.G.toLocaleString('ENG');
+            fila.insertCell(7).innerHTML = inversion.H.toLocaleString('ENG');
+            fila.insertCell(8).innerHTML = inversion.I.toLocaleString('ENG');
             fila.insertCell(9).innerHTML = inversion.J;
             fila.insertCell(10).innerHTML = inversion.K;
             fila.insertCell(11).innerHTML = inversion.L;
