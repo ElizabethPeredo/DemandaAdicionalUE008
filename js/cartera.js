@@ -1,7 +1,7 @@
 class BuscarAnexo {
     constructor() {
         this.inversiones = [
-{A:'0',B:'2001621',C:'',D:'Estudios de Preinversión',E:'NO',F:0,G:,H:1000000,I:1795000,J:'',K:'-',L:'-'},
+{A:'0',B:'2001621',C:'',D:'Estudios de Preinversión',E:'NO',F:0,G:0,H:1000000,I:1795000,J:'',K:'-',L:'-'},
 {A:'1',B:'2430939',C:'',D:'Huaca Sauce',E:'NO',F:488832,G:131173,H:0,I:316354,J:'IOARR',K:'EJECUCIÓN',L:'8. En liquidación o cierre'},
 {A:'2',B:'2475770',C:'',D:'Gestión UE-0008',E:'SI',F:2666912,G:1859294,H:0,I:101301,J:'IOARR',K:'EJECUCIÓN',L:'8. En liquidación o cierre'},
 {A:'3',B:'2430949',C:'',D:'Huaca Huerta Santa Rosa',E:'NO',F:158136,G:3000,H:0,I:155136,J:'IOARR',K:'-',L:'8. En liquidación o cierre'},
