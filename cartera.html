@@ -35,10 +35,10 @@ CARTERA UE008-PE
                 <tbody id="bodyAnexo">
 
                     <style> 
- tbody td:nth-child(-n + 6),
-tbody td:nth-child(-n + 7),
-tbody td:nth-child(-n + 8),
-tbody td:nth-child(-n + 9)
+ tbody td:nth-child(6),
+tbody td:nth-child(7),
+tbody td:nth-child(8),
+tbody td:nth-child(9)
 
  { 
 text-align: right;
@@ -51,11 +51,13 @@ tbody td:nth-child(9):before
 { 
 content: "S/"; 
 }
- tbody tr:nth-child(-n  + 1)
-{ 
-background: var(--red); 
-color: var(--white); 
-}
+ tbody td:nth-child(1) {
+                            background: var(--red);
+                            color: var(--white);
+                            max-width: 2rem;
+                            text-align: center;
+
+                          }
  </style>
                 </tbody>
             </table>
