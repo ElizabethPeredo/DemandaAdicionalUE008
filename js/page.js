@@ -3,7 +3,7 @@ document.getElementById("Header").innerHTML =
     '<div class="navbar__logo">' +
     '<a href="https://elizabethperedo.github.io/DemandaAdicionalUE008/">' +
     '<i class="">' +
-    '</i>Unidad Ejecutora 008</a >' +
+    '</i>UE 008</a >' +
     '</div >' +
     '<div class="navbar__items">' +
     '<ul>' +
@@ -14,7 +14,9 @@ document.getElementById("Header").innerHTML =
     '<a href="./anexo4.html">Anexo 4</a>' +
     '<a href="./anexo5.html">Anexo 5</a>' +
     '<a href="./objetoDA.html">Objeto DA</a>' +
-    '<a href="./fisica.html"><i class="fa fa-money-bill"></i></a>' +
+    '<a href="./fisica.html"><i class="fa fa-calendar-days"></i> Fisica</a>' +
+    '<a href="./financiera.html"><i class="fa fa-coins"></i> Financiera</a>' +
+    '<a href="./files.html"><i class="fas fa-book-reader"></i> Archivos</i></a>' +
     '</ul>' +
     '</div>' +
     '<div class="navbar__icon">' +

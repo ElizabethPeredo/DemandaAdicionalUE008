@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P. FISICA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--Header-->
+    <header class="navbar" id="Header"></header>
+    <!--End Header-->
+
+    <section class="container__large">
+        <h1>PROGRAMACIÓN FISICA</h1>
+
+        <div class="">
+            <form action="javascript:void(0);" id="buscarForm" class="horizontal">
+                <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor" />
+                <button class="red"><i class="fa fa-search icon"></i></button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>NOMBRE DE LA INVERSIÓN</th>
+                        <th>Costo de inversión</th>
+                        <th>Saldo por ejecutar de la inversión</th>
+                        <th>Enero</th>
+                        <th>Febrero</th>
+                        <th>Marzo</th>
+                        <th>Abril</th>
+                        <th>Mayo</th>
+                        <th>Junio</th>
+                        <th>Julio</th>
+                        <th>Agosto</th>
+                        <th>Septiembre</th>
+                        <th>Octubre</th>
+                        <th>Noviembre</th>
+                        <th>Diciembre</th>
+                        <th>DEVENGADO ACUMULADO PARA EL 2022</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyAnexo">
+                    <style>
+                        tbody td:nth-child(1) {
+                            background: var(--red);
+                            color: var(--white);
+                            max-width: 2rem;
+                            text-align: center;
+                        }
+
+                        tbody td:nth-last-child(-n + 15) {
+                            text-align: right;
+                        }
+
+                        tbody td:nth-last-child(-n + 15):before {
+                            content: "S/";
+                        }
+                        tbody tr:nth-child(55) {
+                            background: var(--red);
+                            color: var(--white);
+                        }
+                    </style>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/page.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/financiera.js"></script>
+</body>
+
+</html>

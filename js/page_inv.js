@@ -14,6 +14,9 @@ document.getElementById("header").innerHTML =
     '<a href="../anexo4.html">Anexo 4</a>' +
     '<a href="../anexo5.html">Anexo 5</a>' +
     '<a href="../objetoDA.html">Objeto DA</a>' +
+    '<a href="../fisica.html"><i class="fa fa-calendar-days"></i> Fisica</a>' +
+    '<a href="../financiera.html"><i class="fa fa-coins"></i> Financiera</a>' +
+    '<a href="../files.html"><i class="fas fa-book-reader"></i> Archivos</i></a>' +
     '</ul>' +
     '</div>' +
     '<div class="navbar__icon">' +

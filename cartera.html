@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,9 +17,9 @@
     <!--End Header-->
     <section class="container__large">
         <h1>
-CARTERA UE008-PE
+            CARTERA UE008-PE
         </h1>
-        <div class="container">
+        <div class="">
             <form action="javascript:void(0);" id="buscarForm" class="horizontal">
                 <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor" />
                 <button class="red"><i class="fa fa-search icon"></i></button>
@@ -28,43 +27,51 @@ CARTERA UE008-PE
             <table>
                 <thead>
                     <tr>
-                        <th>N</th> <th>CÓDIGO ÚNICO</th> <th>CÓDIGO IDEA</th> <th>NOMBRE CORTO</th> <th>BIC</th> <th>COSTO DE INVERSIÓN ACTUALIZADO (S/)</th> <th>DEVENGADO ACUMULADO AL 31/12/2020 (S/)</th> <th>PIA</th> <th>PIM</th> <th>TIPO</th> <th>CICLO DE INVERSIÓN</th> <th>ESTADO DE LA INVERSIÓN</th> 
+                        <th>N</th>
+                        <th>CÓDIGO ÚNICO</th>
+                        <th>CÓDIGO IDEA</th>
+                        <th>NOMBRE CORTO</th>
+                        <th>BIC</th>
+                        <th>COSTO DE INVERSIÓN ACTUALIZADO (S/)</th>
+                        <th>DEVENGADO ACUMULADO AL 31/12/2020 (S/)</th>
+                        <th>PIA</th>
+                        <th>PIM</th>
+                        <th>TIPO</th>
+                        <th>CICLO DE INVERSIÓN</th>
+                        <th>ESTADO DE LA INVERSIÓN</th>
 
                     </tr>
                 </thead>
                 <tbody id="bodyAnexo">
 
-                    <style> 
- tbody td:nth-child(6),
-tbody td:nth-child(7),
-tbody td:nth-child(8),
-tbody td:nth-child(9)
+                    <style>
+                        tbody td:nth-child(6),
+                        tbody td:nth-child(7),
+                        tbody td:nth-child(8),
+                        tbody td:nth-child(9) {
+                            text-align: right;
+                        }
 
- { 
-text-align: right;
- } 
-tbody td:nth-child(6):before,
-tbody td:nth-child(7):before,
-tbody td:nth-child(8):before,
-tbody td:nth-child(9):before
+                        tbody td:nth-child(6):before,
+                        tbody td:nth-child(7):before,
+                        tbody td:nth-child(8):before,
+                        tbody td:nth-child(9):before {
+                            content: "S/";
+                        }
 
-{ 
-content: "S/"; 
-}
- tbody td:nth-child(1) {
+                        tbody td:nth-child(1) {
                             background: var(--red);
                             color: var(--white);
                             max-width: 2rem;
                             text-align: center;
+                        }
 
-                          }
-tbody td:nth-child(6) {
-                            
+                        tbody td:nth-child(6) {
                             min-width: 5rem;
-                            
 
-                          }
- </style>
+
+                        }
+                    </style>
                 </tbody>
             </table>
         </div>

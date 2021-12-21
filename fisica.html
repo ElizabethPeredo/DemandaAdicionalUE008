@@ -15,11 +15,11 @@
     <!--Header-->
     <header class="navbar" id="Header"></header>
     <!--End Header-->
+
     <section class="container__large">
-        <h1>
-PROGRAMACIÓN FISICA
-        </h1>
-        <div class="container">
+        <h1>PROGRAMACIÓN FISICA</h1>
+
+        <div class="">
             <form action="javascript:void(0);" id="buscarForm" class="horizontal">
                 <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor" />
                 <button class="red"><i class="fa fa-search icon"></i></button>
@@ -27,8 +27,12 @@ PROGRAMACIÓN FISICA
             <table>
                 <thead>
                     <tr>
-                        <th>N°</th>
-                        <th>Nombre corto de la inversión</th>
+                        <th rowspan="2">N°</th>
+                        <th rowspan="2">Nombre corto de la inversión</th>
+                        <th colspan="7">Expediente Técnico</th>
+                        <th colspan="7">Ejecución física</th>
+                    </tr>
+                    <tr>
                         <th>TdR</th>
                         <th>Estudio de mercado</th>
                         <th>Convocatoria</th>
@@ -43,11 +47,23 @@ PROGRAMACIÓN FISICA
                         <th>Suscripción de contrato</th>
                         <th>Inicio de ejecución</th>
                         <th>Fin de ejecución</th>
-
                     </tr>
                 </thead>
                 <tbody id="bodyAnexo">
-
+                    <style>
+                       tbody td:nth-child(1) {
+                            background: var(--red);
+                            color: var(--white);
+                            max-width: 2rem;
+                            text-align: center;
+                        } 
+                        tbody td:nth-child(2) {
+                            min-width: 8rem;
+                          }
+                        tbody td:nth-last-child(-n+14) {
+                            min-width: 7rem;
+                            text-align: center;
+                          }
                     </style>
                 </tbody>
             </table>
