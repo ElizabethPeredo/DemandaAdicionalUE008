@@ -18,6 +18,20 @@
     <section class="container__medium">
         <h1>CARTERA DE INVERSIONES UE-008</h1>
         <table>
+            <style>
+                tbody td:nth-last-child(-n + 7) {
+                    text-align: right;
+                }
+
+                tbody td:nth-last-child(1):before {
+                    content: "S/";
+                }
+
+                tbody tr:nth-child(10) {
+                    background: var(--red);
+                    color: var(--white);
+                }
+            </style>
             <tr>
                 <th rowspan="2">Estado de inversión</th>
                 <th colspan="2">Bicentenario</th>
@@ -104,14 +118,14 @@
                 <td>1314849236</td>
             </tr>
             <tr>
-                <th>TOTAL</th>
-                <th>51</th>
-                <th>1</th>
-                <th>149</th>
-                <th>1</th>
-                <th>200</th>
-                <th>1</th>
-                <th>3439128699</th>
+                <td>TOTAL</td>
+                <td>51</td>
+                <td>1</td>
+                <td>149</td>
+                <td>1</td>
+                <td>200</td>
+                <td>1</td>
+                <td>3439128699</td>
             </tr>
         </table>
     </section>
