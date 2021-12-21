@@ -85,13 +85,17 @@
 	 display: block;
 	 
 }
+@media (max-width: 1400px) {
+	.navbar__container {
+		padding: 0.5rem 0.5rem;
+	}
+}
  @media (max-width: 1024px) {
 	 .navbar{
 		margin-bottom: 60px;
 	 }
 	.navbar__container {
 		padding: 0.5rem 1rem;
-		
 	}
 	.navbar__icon i#menu-bars {
 		display:inline-block;
