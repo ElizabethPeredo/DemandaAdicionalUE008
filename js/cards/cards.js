@@ -1,4 +1,5 @@
-fetch("./js/cards/datos.json")
+    
+    fetch("./js/cards/datos.json")
     .then(function (response) {
         return response.json();
     })
@@ -9,18 +10,18 @@ fetch("./js/cards/datos.json")
                 '<div class="card-post">' +
                 '<div class="card-post__top">' +
                 '<a>' +
-                '<img class="card-post__img" src="' + data[i].Img + '" alt="" />' +
+                '<img class="card-post__img" src="' + data[i].A + '" alt="" />' +
                 '</a>' +
                 '</div>' +
                 '<div class="card-post__info">' +
                 '<div class="card-post__tag">' +
-                '<a href="">' + data[i].Tag1 + '</a>' +
+                '<a href="">' + data[i].B + '</a>' +
                 '</div>' +
                 '<h2 class="card-post__title">' +
-                '<a href="' + data[i].Link + '">' + data[i].Title + '</a>' +
+                '<a href="' + data[i].C + '">' + data[i].D + '</a>' +
                 '</h2>' +
                 '<div class="card-post__money">' +
-                '<a href="' + data[i].Link + '">' + data[i].Money + '</a>' +
+                '<a href="' + data[i].C + '">' + data[i].E + '</a>' +
                 '</div>' +
                 '</div>' +
                 '</div>' +

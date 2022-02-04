@@ -1,40 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PI - 2233917: Archivo General de la Nación (AGN)</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/menu_vertical.css"/>
-</head>
-
-<body>
-    <!--Header-->
-        <header class="navbar" id="header">
-    </header>
-    <!--End Header-->
-    <section class="container__medium container__slider">
-        <section class="">
-            <div class="menu__vertical">
-                
-            </div>
-        </section>
-        <section class="container__slider-text" id="card">
-            
-        </section>
-    </section>
-
-    <script>
-        fetch("../js/cards/datos_card.json")
+fetch("../js/cards/datos_card.json")
     .then(function (response) {
         return response.json();
     })
     .then(function (data) {
-        var x = 7;
+        var x = 1;
         for (var i = x - 1; i < x; i++) {
             document.getElementById("card").innerHTML +=
                 '<!--CARD-->' +
@@ -69,12 +38,3 @@
     .catch(function (err) {
         console.log(err);
     })
-
-    </script>
-    <script src="../js/page_inv.js"></script>
-    <script src="../js/script.js"></script>
-    <script src="../js/cards/datos_card.json"></script>
-
-</body>
-
-</html>

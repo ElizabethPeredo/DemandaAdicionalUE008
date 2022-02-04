@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PI - 2498188: Parque Bicentenario (Chiclayo - Lambayeque)</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/menu_vertical.css"/>
-</head>
-
-<body>
-    <!--Header-->
-        <header class="navbar" id="header">
-    </header>
-    <!--End Header-->
-    <section class="container__medium container__slider">
-        <section class="">
+<section class="">
             <div class="menu__vertical">
                 <ul>
                     <li class="sub-menu">
@@ -70,7 +50,7 @@
 
                         <details>
                             <summary>
-                                Inversion (es) Bicentenario
+                                Inversiones Bicentenario
                             </summary>
 
                             <ul>
@@ -122,7 +102,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="inversion (19).html">PI - 2508852: Digitalización del Archivo General de la Nación
+                                    <a href="inversion (19).html" class="active">PI - 2508852: Digitalización del Archivo General de la Nación
                                     </a>
                                 </li>
                                 <li>
@@ -236,39 +216,3 @@
                 </ul>
             </div>
         </section>
-        <section class="container__slider-text">
-            <div class="container card note">
-                <h1>​
-                    PI - 2498188: Parque Bicentenario (Chiclayo - Lambayeque)
-                </h1>
-                <ul class="border-color1">
-                    <li><b><i class="fas fa-archive"></i> Estado de inversión​: </b>
-                        Aprobado / Viable
-                    </li>
-                    <li><b><i class="fas fa-coins"></i> Costo de Inversión​: </b>
-                        S/ 16,932,205
-                     ​</li>
-                </ul>
-                
-                <h4><i class="fas fa-tv"></i> Objeto de Demanda Adicional: <small>
-                    
-                </small></h4>
-                 <button>
-                </button>            
-            
-                <img src=" ../images/Imagen32.jpg" alt="">
-                <ul>
-                    <li>CREACION DE LOS SERVICIOS CULTURALES A TRAVÉS DEL PARQUE CULTURAL BICENTENARIO  DISTRITO DE CHICLAYO - PROVINCIA DE CHICLAYO - DEPARTAMENTO DE LAMBAYEQUE
-
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </section>
-
-    <script src="../js/page_inv.js"></script>
-    <script src="../js/script.js"></script>
-
-</body>
-
-</html>
