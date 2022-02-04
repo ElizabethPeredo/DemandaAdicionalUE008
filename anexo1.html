@@ -44,7 +44,7 @@
                         <th rowspan="2">Saldo
                             de Inversión</th>
 
-                        <th>PIA
+                        <th>PIM
                             2022</th>
 
                         <th>DEMANDA
@@ -62,10 +62,21 @@
 
                 <tbody id="bodyAnexo">
                     <style>
-                        tbody td:nth-child(1){
-                           text-align:center;
-                           max-width:0.1rem;
+                        table {
+                            overflow: auto;
+                            height: 45rem;
                         }
+
+                        thead {
+                            position: sticky;
+                            top: 0;
+                        }
+
+                        tbody td:nth-child(1) {
+                            text-align: center;
+                            max-width: 0.1rem;
+                        }
+
                         tbody td:nth-child(1),
                         tbody td:nth-child(9) {
                             font-weight: 900;

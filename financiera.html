@@ -21,7 +21,8 @@
 
         <div class="">
             <form action="javascript:void(0);" id="buscarForm" class="horizontal">
-                <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor" placeholder="Buscar por Nombre de Inversión"/>
+                <input onkeyup="myFunction()" class="inputSearch" style="width: 100%" type="text" id="valor"
+                    placeholder="Buscar por Nombre de Inversión" />
                 <button class="red"><i class="fa fa-search icon"></i></button>
             </form>
             <table>
@@ -48,7 +49,18 @@
                 </thead>
                 <tbody id="bodyAnexo">
                     <style>
-                        tbody td:nth-child(1) {
+                        table {
+                            overflow: auto;
+                            height: 45rem;
+                        }
+
+                        thead{
+                            position: sticky;
+                            top: 0;
+                        }
+
+                        tbody td:nth-child(1),
+                        tbody tr:nth-last-child(-n + 1) {
                             background: var(--red);
                             color: var(--white);
                             max-width: 2rem;
@@ -62,6 +74,7 @@
                         tbody td:nth-last-child(-n + 15):before {
                             content: "S/";
                         }
+
                         tbody tr:nth-child(55) {
                             background: var(--red);
                             color: var(--white);

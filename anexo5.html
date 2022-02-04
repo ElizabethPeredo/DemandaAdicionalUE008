@@ -13,17 +13,91 @@
 
 <body>
     <!--Header-->
-    <header class="navbar" id="Header">
-    </header>
+    <header class="navbar" id="Header"></header>
     <!--End Header-->
-
     <section class="container__large">
         <h1>Anexo N° 5 - CADENAS PRESUPUESTARIAS EN LA QUE SE INCORPORARÁN LOS RECURSOS </h1>
-        
+      <div class="">
+        <form action="javascript:void(0);" id="buscarForm" class="horizontal">
+          <input
+            onkeyup="myFunction()"
+            class="inputSearch"
+            style="width: 100%"
+            type="text"
+            id="valor"
+            placeholder="Buscar por Nombre de Inversión"
+          />
+          <button class="red"><i class="fa fa-search icon"></i></button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>CATEGORÍA PRESUPUESTAL / PRODUCTO O PROYECTO / ACTIVIDAD </th>
+              <th>6-2.6. AQUISICION DE ACTIVOS NO FINANCIEROS </th>
+              <th>6-24: DONACIONES Y TRANSFERENCIAS </th>
+              <th>TOTAL </th>
+            </tr>
+          </thead>
+          <tbody id="bodyAnexo">
+            <style>
+              table {
+                overflow: auto;
+                height:45rem;
+              }
+  
+              thead{
+                position: sticky;
+                top: 0;
+              }
+  
+              tbody td:nth-last-child(-n + 3) {
+                text-align: right;
+              }
+  
+              tbody td:nth-last-child(-n + 3):before {
+                content: "S/";
+              }
+  
+              tbody tr:nth-child(2),
+              tbody tr:nth-child(45),
+              tbody tr:nth-child(86),
+              tbody tr:nth-last-child(-n + 1){
+                background: var(--red);
+                color: var(--white);
+                font-weight: 900;
+              }
+
+              tbody tr:nth-child(3),
+              tbody tr:nth-child(7),
+              tbody tr:nth-child(9),
+              tbody tr:nth-child(12),
+              tbody tr:nth-child(14),
+              tbody tr:nth-child(17),
+              tbody tr:nth-child(19),
+              tbody tr:nth-child(22),
+              tbody tr:nth-child(25),
+              tbody tr:nth-child(28),
+              tbody tr:nth-child(31),
+              tbody tr:nth-child(34),
+              tbody tr:nth-child(36),
+              tbody tr:nth-child(39),
+              tbody tr:nth-child(42),
+              tbody tr:nth-child(46)
+          
+              {
+                background: var(--pale-red);
+                color: var(--black);
+              }
+  
+              
+            </style>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <script src="js/page.js"></script>
     <script src="js/script.js"></script>
-</body>
-
+    <script src="js/anexo5.js"></script>
+  </body>
 </html>

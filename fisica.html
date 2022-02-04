@@ -29,7 +29,7 @@
                     <tr>
                         <th rowspan="2">N°</th>
                         <th rowspan="2">Nombre corto de la inversión</th>
-                        <th colspan="7">Expediente Técnico</th>
+                        <th colspan="8">Expediente Técnico</th>
                         <th colspan="7">Ejecución física</th>
                     </tr>
                     <tr>
@@ -40,6 +40,7 @@
                         <th>Firma de Contrato</th>
                         <th>Primer entregable</th>
                         <th>Producto Final (aprobación)</th>
+                        <th>Suscripción de ADENDA al CAR</th>
                         <th>TdR </th>
                         <th>Estudio de mercado </th>
                         <th>Convocatoria </th>
@@ -51,6 +52,16 @@
                 </thead>
                 <tbody id="bodyAnexo">
                     <style>
+                        table {
+                            overflow: auto;
+                            height: 45rem;
+                        }
+
+                        thead {
+                            position: sticky;
+                            top: 0;
+                        }
+
                        tbody td:nth-child(1) {
                             background: var(--red);
                             color: var(--white);
